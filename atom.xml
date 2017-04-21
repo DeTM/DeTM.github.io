@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>程攀峰的博客</title>
+  <subtitle>如果奇迹没有眷顾你，那就让自己变成奇迹吧。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://detm.github.io/"/>
+  <updated>2017-04-21T13:51:25.663Z</updated>
+  <id>http://detm.github.io/</id>
+  
+  <author>
+    <name>程攀峰</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My Blog</title>
+    <link href="http://detm.github.io/2017/04/19/My-Blog/"/>
+    <id>http://detm.github.io/2017/04/19/My-Blog/</id>
+    <published>2017-04-19T01:28:49.000Z</published>
+    <updated>2017-04-21T13:51:25.663Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""></p>
+<p>#我是程攀峰，很高兴认识你！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;#我是程攀峰，很高兴认识你！&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://detm.github.io/tags/java/"/>
+    
+      <category term="hexo" scheme="http://detm.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
