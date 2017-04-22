@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cpfblog.me/"/>
-  <updated>2017-04-22T09:22:25.893Z</updated>
+  <updated>2017-04-22T11:56:47.729Z</updated>
   <id>http://www.cpfblog.me/</id>
   
   <author>
@@ -20,12 +20,13 @@
     <link href="http://www.cpfblog.me/2017/04/19/My-Blog/"/>
     <id>http://www.cpfblog.me/2017/04/19/My-Blog/</id>
     <published>2017-04-19T01:28:49.000Z</published>
-    <updated>2017-04-22T09:22:25.893Z</updated>
+    <updated>2017-04-22T11:56:47.729Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""><br><a id="more"></a></p>
-<p>####我是程攀峰，很高兴认识你！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo generate</div></pre></td></tr></table></figure>
+<p>##我是程攀峰，很高兴认识你！</p>
 <p>哈哈</p>
-]]></content>
+<h3 id="我就不信了"><a href="#我就不信了" class="headerlink" title="我就不信了"></a>我就不信了</h3>]]></content>
     
     <summary type="html">
     

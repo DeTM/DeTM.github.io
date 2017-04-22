@@ -6,9 +6,10 @@
       <title><![CDATA[My Blog]]></title>
       <url>/2017/04/19/My-Blog/</url>
       <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""><br><a id="more"></a></p>
-<p>####我是程攀峰，很高兴认识你！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo generate</div></pre></td></tr></table></figure>
+<p>##我是程攀峰，很高兴认识你！</p>
 <p>哈哈</p>
-]]></content>
+<h3 id="我就不信了"><a href="#我就不信了" class="headerlink" title="我就不信了"></a>我就不信了</h3>]]></content>
       
         
         <tags>
