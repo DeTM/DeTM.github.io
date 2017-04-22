@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[test search]]></title>
+      <url>/2017/04/22/test-search/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[My Blog]]></title>
+      <url>/2017/04/19/My-Blog/</url>
+      <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""></p>
+<p>#我是程攀峰，很高兴认识你！</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> java </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+    
+  
+</search>
