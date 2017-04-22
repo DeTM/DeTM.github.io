@@ -141,12 +141,12 @@ require([], function (){
     }
 
     // Random Color 边栏顶部随机颜色
-    var colorList = ["#6da336"];
+    var colorList = ["#6da336", "#4d4d4d", "#66CC66", "#99CC99", "#76becc", "#76becc", "#c99979", "#000013", "#4d4d4d"];
     var id = Math.ceil(Math.random()*(colorList.length-1));
     // PC
     $("#container .left-col .overlay").css({"background-color": colorList[id],"opacity": .3});
     // Mobile
-    $("#container #mobile-nav .overlay").css({"background-color": colorList[id],"opacity": .7});
+    $("#container #mobile-nav .overlay").css({"background-color": colorList[id],"opacity": .1});
 
     // Table
     $("table").wrap("<div class='table-area'></div>");
