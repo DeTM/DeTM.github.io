@@ -4,9 +4,9 @@
   <subtitle>再坚持坚持就好</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://detm.github.io/"/>
+  <link href="http://www.cpfblog.me/"/>
   <updated>2017-04-22T09:22:25.893Z</updated>
-  <id>http://detm.github.io/</id>
+  <id>http://www.cpfblog.me/</id>
   
   <author>
     <name>程攀峰</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>My Blog</title>
-    <link href="http://detm.github.io/2017/04/19/My-Blog/"/>
-    <id>http://detm.github.io/2017/04/19/My-Blog/</id>
+    <link href="http://www.cpfblog.me/2017/04/19/My-Blog/"/>
+    <id>http://www.cpfblog.me/2017/04/19/My-Blog/</id>
     <published>2017-04-19T01:28:49.000Z</published>
     <updated>2017-04-22T09:22:25.893Z</updated>
     
@@ -34,9 +34,9 @@
     </summary>
     
     
-      <category term="java" scheme="http://detm.github.io/tags/java/"/>
+      <category term="java" scheme="http://www.cpfblog.me/tags/java/"/>
     
-      <category term="hexo" scheme="http://detm.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.cpfblog.me/tags/hexo/"/>
     
   </entry>
   
