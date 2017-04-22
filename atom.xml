@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://detm.github.io/"/>
-  <updated>2017-04-21T13:51:25.663Z</updated>
+  <updated>2017-04-22T09:22:25.893Z</updated>
   <id>http://detm.github.io/</id>
   
   <author>
@@ -20,17 +20,16 @@
     <link href="http://detm.github.io/2017/04/19/My-Blog/"/>
     <id>http://detm.github.io/2017/04/19/My-Blog/</id>
     <published>2017-04-19T01:28:49.000Z</published>
-    <updated>2017-04-21T13:51:25.663Z</updated>
+    <updated>2017-04-22T09:22:25.893Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""></p>
-<p>#我是程攀峰，很高兴认识你！</p>
+    <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""><br><a id="more"></a></p>
+<p>####我是程攀峰，很高兴认识你！</p>
+<p>哈哈</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;#我是程攀峰，很高兴认识你！&lt;/p&gt;
-
+      &lt;p&gt;&lt;img src=&quot;http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG&quot; alt=&quot;&quot;&gt;&lt;br&gt;
     
     </summary>
     

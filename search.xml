@@ -5,8 +5,9 @@
     <entry>
       <title><![CDATA[My Blog]]></title>
       <url>/2017/04/19/My-Blog/</url>
-      <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""></p>
-<p>#我是程攀峰，很高兴认识你！</p>
+      <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""><br><a id="more"></a></p>
+<p>####我是程攀峰，很高兴认识你！</p>
+<p>哈哈</p>
 ]]></content>
       
         
@@ -24,14 +25,14 @@
   
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[about]]></title>
+      <url>/about/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[about]]></title>
-      <url>/about/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
