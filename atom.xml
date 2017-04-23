@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cpfblog.me/"/>
-  <updated>2017-04-22T11:56:47.729Z</updated>
+  <updated>2017-04-23T09:19:53.202Z</updated>
   <id>http://www.cpfblog.me/</id>
   
   <author>
@@ -16,21 +16,144 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My Blog</title>
+    <title>初体验Hexo+GitHub搭建个人博客</title>
     <link href="http://www.cpfblog.me/2017/04/19/My-Blog/"/>
     <id>http://www.cpfblog.me/2017/04/19/My-Blog/</id>
     <published>2017-04-19T01:28:49.000Z</published>
-    <updated>2017-04-22T11:56:47.729Z</updated>
+    <updated>2017-04-23T09:19:53.202Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG" alt=""><br><a id="more"></a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo generate</div></pre></td></tr></table></figure>
-<p>##我是程攀峰，很高兴认识你！</p>
-<p>哈哈</p>
-<h3 id="我就不信了"><a href="#我就不信了" class="headerlink" title="我就不信了"></a>我就不信了</h3>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>初入GitHub，发现能用Hexo+GitHub搭建个人博客（免费+便捷），有个自己的空间，记录分享在码农路上的知识总结和填坑经历，是件很不错的事。便在网上各种查阅资料，磕磕碰碰地忙活了起来。或许是因为很多资料时间比较久远，也是遇到了很多坑，所以决定自己总结下，也希望能帮助到其他需要的人。<br><a id="more"></a></p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><blockquote>
+<p>注：本文使用的是WIN7 64位的操作系统和Hexo3.3.1</p>
+</blockquote>
+<h2 id="建立GitHub-Pages"><a href="#建立GitHub-Pages" class="headerlink" title="建立GitHub Pages"></a>建立GitHub Pages</h2><blockquote>
+<p>如果还没有GitHub账号，就<a href="https://github.com/" target="_blank" rel="external">先去注册一个</a>，注册过程不在赘述</p>
+</blockquote>
+<h3 id="GitHub新建仓库"><a href="#GitHub新建仓库" class="headerlink" title="GitHub新建仓库"></a><strong>GitHub新建仓库</strong></h3><p><img src="http://ooriuhy4y.bkt.clouddn.com/github1.jpg" alt="github1"></p>
+<p><img src="http://ooriuhy4y.bkt.clouddn.com/github2.jpg" alt="github2"></p>
+<h3 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a><strong>选择主题</strong></h3><h4 id=""><a href="#" class="headerlink" title=""></a><img src="http://ooriuhy4y.bkt.clouddn.com/github3.jpg" alt="github3"></h4><p><img src="http://ooriuhy4y.bkt.clouddn.com/github4.jpg" alt="github4"></p>
+<p><img src="http://ooriuhy4y.bkt.clouddn.com/github5.jpg" alt="github5"></p>
+<p><img src="http://ooriuhy4y.bkt.clouddn.com/github6.jpg" alt="github6"></p>
+<blockquote>
+<p>注：之所以叙述以上过程，是因为GitHub改版后，布局和操作有所改变，对于新手小白（例如我）来说网上很多参考资料中的步骤就无法按部就班了</p>
+</blockquote>
+<p>这样就建立了一个简单的GitHub pages，访问前面填写你的GitHub-Name.github.io就可以看到创建的页面了。当然GitHub自带的模板或许并不能满足你需求，接下来将隆重为大家引入本文的主角<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>。</p>
+<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><blockquote>
+<p>Git是一个版本管理工具，可以将我们生成的静态网页托管到GitHub上</p>
+</blockquote>
+<p>直接去<a href="https://git-scm.com/" target="_blank" rel="external">Git官网</a>上下载，全程下一步安装。更详细的Git安装配置<a href="http://jingyan.baidu.com/article/020278117cbe921bcc9ce51c.html" target="_blank" rel="external">点这里</a></p>
+<p>安装完成后，右击鼠标可以看见多了两个选项，如果没有可以前往Git安装根目录，启动<strong>git-base.exe</strong>即可</p>
+<p><img src="http://ooriuhy4y.bkt.clouddn.com/git1.jpg" alt="git1"></p>
+<h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>直接去<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js官网</a>下载，全程下一步安装。更详细的Node.js安装配置教程<a href="http://www.runoob.com/nodejs/nodejs-tutorial.html" target="_blank" rel="external">点这里</a>。</p>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><blockquote>
+<p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在<a href="https://github.com/" target="_blank" rel="external">Github</a>上。并且有很多人为其制作了很多优秀的主题（theme），你可以根据自己的喜好进行设置。</p>
+</blockquote>
+<p>点击Git Bash中执行以下代码，便安装完成了</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure>
+<h3 id="创建Hexo文件夹"><a href="#创建Hexo文件夹" class="headerlink" title="创建Hexo文件夹"></a>创建Hexo文件夹</h3><blockquote>
+<p>找一个想要放置博客的文件夹，比如（<code>D:\Hexo</code>）</p>
+</blockquote>
+<p>在该目录下鼠标右击打开Gitbash工具，（右键菜单中没有该选项的可以用cmd命令<code>cd</code>等进入该文件夹）。执行下面的语句，会在<code>D:\Hexo</code>文件夹下创建<code>node_modules</code>文件夹：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ hexo init</div></pre></td></tr></table></figure>
+<h3 id="安装工具包"><a href="#安装工具包" class="headerlink" title="安装工具包"></a>安装工具包</h3><p>在<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>目录下，执行以下命令，你会发现<code>D:\Hexo\node_modules</code>目录下多了好多文件夹</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure>
+<h3 id="本地测试"><a href="#本地测试" class="headerlink" title="本地测试"></a>本地测试</h3><p>在Hexo目录下，执行以下命令后，访问<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> ，就可以看见自己的博客界面了</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<blockquote>
+<p>到这里我们就完成了Hexo静态博客本地环境搭建和生成静态博客，并且实现了本地访问，当然仅仅自己能访问这是远远不够的，接下我们将把生成的博客托管到GitHub上，让更多的人能够访问到。</p>
+</blockquote>
+<h2 id="托管到GitHub"><a href="#托管到GitHub" class="headerlink" title="托管到GitHub"></a>托管到GitHub</h2><h3 id="拷贝Https链接"><a href="#拷贝Https链接" class="headerlink" title="拷贝Https链接"></a>拷贝Https链接</h3><blockquote>
+<p>先在你的仓库（GitHub-Name.github.io）中拷贝下这个https链接下面配置有用</p>
+</blockquote>
+<p><img src="http://ooriuhy4y.bkt.clouddn.com/github7.jpg" alt="github7"></p>
+<h3 id="修改Hexo配置文件"><a href="#修改Hexo配置文件" class="headerlink" title="修改Hexo配置文件"></a>修改Hexo配置文件</h3><blockquote>
+<p><code>_config.yml</code>在你的Hexo（如：<code>D:\Hexo</code>）根目录下</p>
+</blockquote>
+<p>打开<code>_config.yml</code>文件找到并修改成如下配置：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: https://github.com/DeTM/DeTM.github.io.git	#此处替换为前面拷贝的https链接</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<h3 id="上传文件"><a href="#上传文件" class="headerlink" title="上传文件"></a>上传文件</h3><p>在Hexo根目录下执行以下命令后，在浏览器中访问你的GitHub pages路径（<code>GitHub-Name.github.io</code>），若能成功显示本地访问时的博客页面，即部署成功</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ hexo generate		#保存并生成html，css等文件</div><div class="line">$ hexo deploy		#上传到指定路径</div></pre></td></tr></table></figure>
+<blockquote>
+<p>注：若在<code>$ hexo deploy</code>中可能会出现<code>ERROR Deployer not found: git</code> 错误提示，是因为缺少<code>hexo-deployer-git</code> 插件，执行以下操作后，再次上传即可</p>
+</blockquote>
+<p>在Hexo目录下执行以下命令，<code>D:\Hexo\node_modules</code> 文件夹中生成<code>hexo-deployer-git</code> 文件夹即可</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><blockquote>
+<p>Hexo的默认主题是landscape，你如果不喜欢还有跟多的<a href="https://hexo.io/themes/" target="_blank" rel="external">主题</a>供你选择，本博客选用的主题是<a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" rel="external">yelee</a> ，若想更换成其他主题同理。</p>
+</blockquote>
+<h3 id="安装yelee"><a href="#安装yelee" class="headerlink" title="安装yelee"></a>安装yelee</h3><p>在Hexo目录下执行以下命令，或者直接将<a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" rel="external">yelee</a>下载到Hexo根目录下的themes目录里，解压并修改文件夹名字为yelee</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ git clone https://github.com/MOxFIVE/hexo-theme-yelee.git themes/yelee</div></pre></td></tr></table></figure>
+<h3 id="修改Hexo配置"><a href="#修改Hexo配置" class="headerlink" title="修改Hexo配置"></a>修改Hexo配置</h3><p>此处修改的是Hexo根目录下的<code>_config.yml</code> ，找到以下内容并修改，保存后再次上传即可</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># Extensions</div><div class="line">## Plugins: https://hexo.io/plugins/</div><div class="line">## Themes: https://hexo.io/themes/</div><div class="line">theme: yelee					#你要使用的主题的名字</div></pre></td></tr></table></figure>
+<blockquote>
+<p>到这里，我们就已经完成了在GitHub上部署一个自己喜欢的风格的个人博客，接下来将是对Hexo的使用和主题的优化。</p>
+</blockquote>
+<h2 id="使用Hexo"><a href="#使用Hexo" class="headerlink" title="使用Hexo"></a>使用Hexo</h2><blockquote>
+<p>本文只列举一些常用的Hexo的使用方法，更详细的请见<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">官方文档</a></p>
+</blockquote>
+<h3 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h3><p><strong>1）新建文章</strong></p>
+<p>当需要写文章时，在Hexo根目录下使用如下命令新建文章，会在<code>D:\Hexo\source\_posts</code>文件夹中生成与 title 对应的 .md 文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ hexo new &quot;My New Post&quot;		#引号内内容为&quot;文章标题&quot;</div></pre></td></tr></table></figure>
+<p>.md 文件就是 <a href="http://baike.baidu.com/link?url=S9nDGorfqRYU4gkU2kz2ulMv59GMhCYhC7m5BxJX4ro7XE5m2tEiAMZlIQpqiq20NN_9q564pxgFmP7ddRst9Bsqg1zpm-EZTP2E5yfnxli" target="_blank" rel="external">markdown 格式</a>的文章表述，格式大致如下。可以使用markdown编辑器对其编辑，本文推荐使用<a href="https://www.typora.io/" target="_blank" rel="external">Typora</a> ，其优点和使用方法<a href="http://www.jianshu.com/p/5256ecc06eec" target="_blank" rel="external">见这里</a> 。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">title: My New Post</div><div class="line">date: 2017-04-19 09:28:49</div><div class="line">---								# 分隔符</div><div class="line">以下为文章的markdown内容</div></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：我在使用Typora的时候遇到一个小BUG，就是保存文件后上传后无法显示所写的文章，以为是编码的问题，但是修改为UTF-8后也没效果。所以我每次在使用Typora编辑保存文件后，会使用EditPlus再打开保存一次，即可解决。</p>
+</blockquote>
+<p><strong>2）插入标签和分类</strong></p>
+<p>在.md文件中加入以下类容</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">categories: [1级类,2级类,3级类]	#类别有顺序等级</div><div class="line">tags: [标签1,标签2,标签3]		#标签无序</div><div class="line">---				#在分隔符以上插入</div></pre></td></tr></table></figure>
+<p><strong>3）插入图片</strong></p>
+<p>Typora支持直接将图片拖入，或者键入以下内容</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">![图片名称](图片URL)</div></pre></td></tr></table></figure>
+<blockquote>
+<p>图片的来源有三种方式：一是直接放入博客源文件中，二是使用网上图片链接，三是本地存入云空间后获取访问链接。</p>
+</blockquote>
+<p>本人考虑到放入博客源文件中随着图片数量的增加上传和加载都会大大受影响，而且若是将来使用自己的服务器迁移时可能会导致数据丢失，网上的图片链接也有可能会存在数据丢失的情况，所以最终决定使用第三种方法。本人采用的是<a href="https://www.qiniu.com" target="_blank" rel="external">七牛云</a> 来存储图片，七牛云的使用方法请<a href="http://www.jianshu.com/p/ec2c8acf63cd" target="_blank" rel="external">参考这里</a> 。</p>
+<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><blockquote>
+<p>搭建好博客后，后期的更新和发布就简单了，常用的有一下三句命令</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">命令						作用					简写</div><div class="line">$ hexo clean 				#清空已生成的所有静态文件		</div><div class="line">$ hexo generate				#保存并解析.md文件生成静态文件			$ hexo g</div><div class="line">$ hexo server				#可以实时动态访问已生成的静态文件			$ hexo s</div><div class="line">$ hexo deploy				#用指定方式上传到指定路径				$ hexo d</div></pre></td></tr></table></figure>
+<h2 id="主题优化配置"><a href="#主题优化配置" class="headerlink" title="主题优化配置"></a>主题优化配置</h2><blockquote>
+<p>yelee有非常详细的<a href="http://moxfive.coding.me/yelee/" target="_blank" rel="external">使用说明书</a> ，以下所罗列的是我在配置过程中有所卡壳或是说明书中没有写的地方</p>
+</blockquote>
+<h3 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h3><p>执行下面命令，安装 <a href="https://github.com/PaicHyperionDev/hexo-generator-search" target="_blank" rel="external">hexo-generator-search</a> 插件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure>
+<p>在Hexo根目录下的<code>_config.yml</code>中添加如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: all						# 如只想索引文章，可设置为post</div></pre></td></tr></table></figure>
+<p>在yelee根目录下的中添加如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># Local Site Search | 本地站内搜索</div><div class="line">search: </div><div class="line">  on: true			#true为开启站内搜索，false关闭</div><div class="line">  onload: false			#true为页面加载时就获取search.xml中内容，</div><div class="line">				#false为向search框内输入查询信息时才获取search.xml中内容</div></pre></td></tr></table></figure>
+<h3 id="RSS"><a href="#RSS" class="headerlink" title="RSS"></a>RSS</h3><p>执行下面命令，安装 <a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="external">hexo-generator-feed</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ npm install hexo-generator-feed --save</div></pre></td></tr></table></figure>
+<p>在Hexo根目录下的<code>_config.yml</code>中添加如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">feed: </div><div class="line">  type: atom </div><div class="line">  path: atom.xml </div><div class="line">  limit: 20</div></pre></td></tr></table></figure>
+<p>在yelee根目录下的<code>_config.yml</code>中添加如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"># Customize feed link 自定义订阅地址</div><div class="line">rss: /atom.xml</div></pre></td></tr></table></figure>
+<h3 id="更换背景"><a href="#更换背景" class="headerlink" title="更换背景"></a>更换背景</h3><blockquote>
+<p>yelee主题的新特性之一是博客随机更换背景图片，而yelee自带的图片中或许你不太满意，可以进行如下操作进行更换</p>
+</blockquote>
+<p>在 <code>D:\Hexo\themes\yelee\source\background</code> 文件夹中有五张图片，这五张图片就是yelee自带的随机背景图，你可以按自己需求放入五张自己喜欢的图片，但是必须以它的格式命名即可。</p>
+<h3 id="更换边栏顶部颜色"><a href="#更换边栏顶部颜色" class="headerlink" title="更换边栏顶部颜色"></a>更换边栏顶部颜色</h3><blockquote>
+<p>yelee主题的左边栏的顶部的颜色也是随机变化的，而你或许对其自带的颜色不太满意，可以进行如下操作进行更换</p>
+</blockquote>
+<p>在<code>D:\Hexo\themes\yelee\source\js</code> 中找到<code>main.js</code> 文件，打开找到如下代码</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="comment">// Random Color 边栏顶部随机颜色</span></div><div class="line"><span class="keyword">var</span> colorList = [<span class="string">"#6da336"</span>, <span class="string">"#4d4d4d"</span>, <span class="string">"#66CC66"</span>, <span class="string">"#99CC99"</span>, <span class="string">"#76becc"</span>, <span class="string">"#76becc"</span>, <span class="string">"#c99979"</span>, <span class="string">"#000013"</span>, <span class="string">"#4d4d4d"</span>];</div><div class="line"><span class="comment">//引号中的是"颜色代码"</span></div></pre></td></tr></table></figure>
+<p>你可以在<a href="https://www.editplus.com/" target="_blank" rel="external">EditPlus</a>等类似软件中中新建一个HTML文件，选择喜欢的颜色获取颜色代码，用以替代上面的颜色代码</p>
+<blockquote>
+<p>到这里我们已经有了一个简单的个性化博客，并且学会了如何在上面发布内容，除以上所述外还可以添加更多功能，这将在后续中说明。而目前为了使我们的博客更加个性化，我决定申请一个域名并CNAME解析到博客上，使用自己的域名来访问我们的博客</p>
+</blockquote>
+<h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h2><h3 id="注册域名"><a href="#注册域名" class="headerlink" title="注册域名"></a>注册域名</h3><p>注册域名的渠道有很多，例如<a href="https://wanwang.aliyun.com/" target="_blank" rel="external">阿里云</a> 、<a href="https://dnspod.qcloud.com/" target="_blank" rel="external">腾讯云</a> 等，我是在阿里云上注册的，详细流程<a href="https://help.aliyun.com/knowledge_detail/35895.html" target="_blank" rel="external">在这里</a> </p>
+<h3 id="CNAME解析"><a href="#CNAME解析" class="headerlink" title="CNAME解析"></a>CNAME解析</h3><p><strong>1）按下图操作，在阿里云上添加解析</strong></p>
+<p><img src="http://ooriuhy4y.bkt.clouddn.com/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90.jpg" alt="域名解析"></p>
+<p><strong>2）按下图在GitHub中保存你的域名</strong></p>
+<p><img src="http://ooriuhy4y.bkt.clouddn.com/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%902.jpg" alt="域名解析2"></p>
+<blockquote>
+<p>完成以上步骤，一般解析时间在10分钟左右，解析完成后就可以通过域名访问你的博客了</p>
+</blockquote>
+]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://ooriuhy4y.bkt.clouddn.com/IMG_0075.JPG&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;初入GitHub，发现能用Hexo+GitHub搭建个人博客（免费+便捷），有个自己的空间，记录分享在码农路上的知识总结和填坑经历，是件很不错的事。便在网上各种查阅资料，磕磕碰碰地忙活了起来。或许是因为很多资料时间比较久远，也是遇到了很多坑，所以决定自己总结下，也希望能帮助到其他需要的人。&lt;br&gt;
     
     </summary>
     
