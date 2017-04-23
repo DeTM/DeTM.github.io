@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cpfblog.me/"/>
-  <updated>2017-04-23T12:07:18.702Z</updated>
+  <updated>2017-04-23T12:13:02.752Z</updated>
   <id>http://www.cpfblog.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.cpfblog.me/2017/04/19/My-Blog/"/>
     <id>http://www.cpfblog.me/2017/04/19/My-Blog/</id>
     <published>2017-04-19T01:28:49.000Z</published>
-    <updated>2017-04-23T12:07:18.702Z</updated>
+    <updated>2017-04-23T12:13:02.752Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://ooriuhy4y.bkt.clouddn.com/github_hexo.png" alt="github_hexo"></p>
 <a id="more"></a>
@@ -179,9 +179,9 @@
     </summary>
     
     
-      <category term="java" scheme="http://www.cpfblog.me/tags/java/"/>
+      <category term="Git" scheme="http://www.cpfblog.me/tags/Git/"/>
     
-      <category term="hexo" scheme="http://www.cpfblog.me/tags/hexo/"/>
+      <category term="Hexo" scheme="http://www.cpfblog.me/tags/Hexo/"/>
     
   </entry>
   
